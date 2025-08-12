@@ -1,0 +1,66 @@
+{
+  "accounts": [
+    { "id": 1, "name": "Everyday Account", "balance": 2500.25 },
+    { "id": 2, "name": "Savings Account",  "balance": 8200.00 },
+    { "id": 3, "name": "Travel Account",   "balance": 130.90 },
+    { "id": 4, "name": "Business Account", "balance": 12340.10 },
+    { "id": 5, "name": "Kids Account",     "balance": 410.00 }
+  ],
+  "transactions": [
+    { "id": 101, "accountId": 1, "date": "2025-08-10", "type": "DEBIT",  "amount": 12.50,  "description": "Coffee" },
+    { "id": 102, "accountId": 1, "date": "2025-08-09", "type": "DEBIT",  "amount": 65.00,  "description": "Fuel" },
+    { "id": 103, "accountId": 1, "date": "2025-08-08", "type": "CREDIT", "amount": 500.00, "description": "Salary" },
+    { "id": 104, "accountId": 1, "date": "2025-08-05", "type": "DEBIT",  "amount": 30.40,  "description": "Groceries" },
+    { "id": 105, "accountId": 1, "date": "2025-08-03", "type": "DEBIT",  "amount": 15.75,  "description": "Lunch" },
+    { "id": 106, "accountId": 1, "date": "2025-07-28", "type": "DEBIT",  "amount": 120.00, "description": "Utilities" },
+    { "id": 107, "accountId": 1, "date": "2025-07-25", "type": "CREDIT", "amount": 200.00, "description": "Gift Refund" },
+    { "id": 108, "accountId": 1, "date": "2025-07-20", "type": "DEBIT",  "amount": 50.00,  "description": "Restaurant" },
+    { "id": 109, "accountId": 1, "date": "2025-07-15", "type": "DEBIT",  "amount": 75.00,  "description": "Online Shopping" },
+    { "id": 110, "accountId": 1, "date": "2025-07-10", "type": "CREDIT", "amount": 500.00, "description": "Salary" },
+
+    { "id": 201, "accountId": 2, "date": "2025-08-09", "type": "DEBIT",  "amount": 1200.00, "description": "Rent" },
+    { "id": 202, "accountId": 2, "date": "2025-08-07", "type": "DEBIT",  "amount": 90.00,   "description": "Internet" },
+    { "id": 203, "accountId": 2, "date": "2025-08-01", "type": "CREDIT", "amount": 1500.00, "description": "Bonus" },
+    { "id": 204, "accountId": 2, "date": "2025-07-25", "type": "DEBIT",  "amount": 200.00,  "description": "Groceries" },
+    { "id": 205, "accountId": 2, "date": "2025-07-18", "type": "DEBIT",  "amount": 350.00,  "description": "Furniture" },
+    { "id": 206, "accountId": 2, "date": "2025-07-10", "type": "CREDIT", "amount": 1500.00, "description": "Salary" },
+    { "id": 207, "accountId": 2, "date": "2025-07-05", "type": "DEBIT",  "amount": 180.00,  "description": "Electronics" },
+    { "id": 208, "accountId": 2, "date": "2025-06-28", "type": "DEBIT",  "amount": 75.00,   "description": "Gym Membership" },
+    { "id": 209, "accountId": 2, "date": "2025-06-22", "type": "CREDIT", "amount": 1200.00, "description": "Tax Refund" },
+    { "id": 210, "accountId": 2, "date": "2025-06-18", "type": "DEBIT",  "amount": 60.00,   "description": "Dinner" },
+
+    { "id": 301, "accountId": 3, "date": "2025-08-08", "type": "DEBIT",  "amount": 30.00,   "description": "Airport Bus" },
+    { "id": 302, "accountId": 3, "date": "2025-08-05", "type": "CREDIT", "amount": 200.00,  "description": "Travel Refund" },
+    { "id": 303, "accountId": 3, "date": "2025-07-29", "type": "DEBIT",  "amount": 400.00,  "description": "Flight Ticket" },
+    { "id": 304, "accountId": 3, "date": "2025-07-21", "type": "DEBIT",  "amount": 20.00,   "description": "Coffee" },
+    { "id": 305, "accountId": 3, "date": "2025-07-15", "type": "DEBIT",  "amount": 50.00,   "description": "Museum Entry" },
+    { "id": 306, "accountId": 3, "date": "2025-07-09", "type": "CREDIT", "amount": 300.00,  "description": "Hotel Refund" },
+    { "id": 307, "accountId": 3, "date": "2025-07-01", "type": "DEBIT",  "amount": 80.00,   "description": "Restaurant" },
+    { "id": 308, "accountId": 3, "date": "2025-06-24", "type": "DEBIT",  "amount": 150.00,  "description": "Taxi" },
+    { "id": 309, "accountId": 3, "date": "2025-06-20", "type": "DEBIT",  "amount": 60.00,   "description": "Souvenirs" },
+    { "id": 310, "accountId": 3, "date": "2025-06-15", "type": "CREDIT", "amount": 250.00,  "description": "Gift" },
+
+    { "id": 401, "accountId": 4, "date": "2025-08-10", "type": "CREDIT", "amount": 2100.00, "description": "Invoice #444" },
+    { "id": 402, "accountId": 4, "date": "2025-08-02", "type": "DEBIT",  "amount": 500.00,  "description": "Office Supplies" },
+    { "id": 403, "accountId": 4, "date": "2025-07-28", "type": "DEBIT",  "amount": 300.00,  "description": "Client Dinner" },
+    { "id": 404, "accountId": 4, "date": "2025-07-20", "type": "DEBIT",  "amount": 900.00,  "description": "Equipment" },
+    { "id": 405, "accountId": 4, "date": "2025-07-14", "type": "CREDIT", "amount": 4000.00, "description": "Invoice #445" },
+    { "id": 406, "accountId": 4, "date": "2025-07-08", "type": "DEBIT",  "amount": 220.00,  "description": "Courier Service" },
+    { "id": 407, "accountId": 4, "date": "2025-07-02", "type": "DEBIT",  "amount": 150.00,  "description": "Printing" },
+    { "id": 408, "accountId": 4, "date": "2025-06-25", "type": "CREDIT", "amount": 1800.00, "description": "Invoice #446" },
+    { "id": 409, "accountId": 4, "date": "2025-06-19", "type": "DEBIT",  "amount": 110.00,  "description": "Stationery" },
+    { "id": 410, "accountId": 4, "date": "2025-06-12", "type": "DEBIT",  "amount": 75.00,   "description": "Snacks" },
+
+    { "id": 501, "accountId": 5, "date": "2025-08-07", "type": "DEBIT",  "amount": 18.90,  "description": "Toys" },
+    { "id": 502, "accountId": 5, "date": "2025-08-01", "type": "DEBIT",  "amount": 35.00,  "description": "Books" },
+    { "id": 503, "accountId": 5, "date": "2025-07-26", "type": "DEBIT",  "amount": 15.00,  "description": "Snacks" },
+    { "id": 504, "accountId": 5, "date": "2025-07-18", "type": "CREDIT", "amount": 100.00, "description": "Gift" },
+    { "id": 505, "accountId": 5, "date": "2025-07-10", "type": "DEBIT",  "amount": 20.00,  "description": "Ice Cream" },
+    { "id": 506, "accountId": 5, "date": "2025-07-03", "type": "DEBIT",  "amount": 8.00,   "description": "Bus Fare" },
+    { "id": 507, "accountId": 5, "date": "2025-06-29", "type": "DEBIT",  "amount": 25.00,  "description": "Stationery" },
+    { "id": 508, "accountId": 5, "date": "2025-06-20", "type": "CREDIT", "amount": 50.00,  "description": "Pocket Money" },
+    { "id": 509, "accountId": 5, "date": "2025-06-15", "type": "DEBIT",  "amount": 12.50,  "description": "Snacks" },
+    { "id": 510, "accountId": 5, "date": "2025-06-08", "type": "DEBIT",  "amount": 5.00,   "description": "Candy" }
+  ]
+}
+
